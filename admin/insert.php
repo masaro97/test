@@ -15,4 +15,4 @@
     else echo "Lỗi thêm ";
     header("location:function.php");
  }
-?>;;
+?>
