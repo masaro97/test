@@ -1,0 +1,324 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+<style type="text/css">
+#container
+{
+	width:1000px;
+	
+	margin:0 auto;
+	
+}
+#header
+{
+	height:173px;
+	background-image:url(Images/layout/header_bg.jpg);
+}
+#logo
+{
+	height:173px;
+	width:304px;
+	text-align:center;
+	float:left;
+
+}
+#banner
+{
+	height:173px;
+	width:696px;
+	float:right;
+	text-align:center;
+}
+#hmenu1
+{
+	height:50px;
+	background-image:url(Images/layout/menu_bg.gif);
+	border-radius:5px 5px 10px 10px;
+}
+#lmenu
+{
+	width:9px;
+	background-image:url(Images/layout/menu_left.gif);
+	height:50px;
+	float:left;
+}
+#mmenu
+{
+	width:982px;
+	height:50px;
+	background-image:url(Images/layout/menu_bg.gif);
+	float:left;
+}
+#rmenu
+{
+	width:9px;
+	background-image:url(Images/layout/menu_right.gif);
+	height:50px;
+	float:left;
+}
+#mmenu ul
+{
+	list-style:none;
+	margin-top:0px;
+	margin-left:-20px;
+}
+#mmenu ul li
+{
+	float:left;
+	line-height:50px;
+	margin:0px 15px;
+
+
+}
+.mn_divider
+{
+	width:2px;
+	background-image:url(Images/layout/menu_divider.gif);
+}
+#mmenu ul li a
+{
+	text-decoration:none;
+	color:#333;
+
+}
+
+#mmenu ul li a:hover
+{
+	color:#F00;
+}
+#mid
+{
+	margin-top:10px;
+}
+#left
+{
+	width:196px;
+	min-height:200px;;
+
+	float:left;
+}
+#right
+{
+	width:196px;
+	min-height:200px;;
+	border:1px solid #009;
+	float:right;
+}
+#content
+{
+	width:560px;
+	min-height:200px;
+
+	float:left;
+	margin-left:24px;
+}
+.vmenu ul
+{
+	margin-top:0px;	
+	margin-left:-40px;
+	list-style:none;
+}
+.vmenu ul li
+{
+	line-height:30px;
+	border-bottom:1px solid #F5F;
+	padding-left:10px;
+}
+.vmenu ul li a
+{
+	text-decoration:none;
+	color:#333;
+	display:block;
+
+}
+.vmenu ul li:nth-child(even)
+{
+	background-color:#C7C;
+}
+.vmenu ul li:nth-child(odd)
+{
+	background-color:#E5E2E2;
+}
+
+.vmenu ul li:first-child
+{
+	background-image:url(Images/layout/menu_title_bg.gif);
+	padding-left:0px;
+	text-align:center;
+	color:#F6F;
+	font-weight:bold;
+	border-bottom:none;
+
+}
+.bar_title
+{
+	height:33px;
+	background-image:url(Images/layout/bar_bg.gif);
+	line-height:33px;
+	padding-left:35px;
+	font-weight:bold;
+	color:#333;
+	margin-bottom:5px;
+}	
+.product
+{
+	width:173px;
+	height:220px;
+	/*background-color:#0F0;*/
+	background-image:url(Images/layout/product_box_center.gif);
+	text-align:center;
+	border-radius:5px;
+	float:left;
+	margin: 6px;
+}
+.product img
+{
+	width:150px;
+	height:170px;
+}
+.pro_name
+{
+	color:#F00;
+	font-weight:bold;
+	text-align:center;
+}
+.price
+{
+	width:50%;
+	float:left;
+	color:#F00;;
+	text-align:center;
+
+}
+.buy
+{
+	width:50%;
+	float:right;
+	text-align:center;
+
+}
+.spkm
+{
+	text-align:center;
+}
+.spkm img
+{
+	width:170px;
+}
+.giamoi
+{
+	width:50%;
+	float:left;
+	color:#F00;
+}
+.giacu
+{
+	width:50%;
+	float:right;
+	color:#F00;
+	text-decoration:line-through;
+}
+
+</style>
+
+<body>
+<script language="javascript">
+//alert(parseInt(Math.random()*70));
+</script>
+<div id="container">
+	<div id="header">
+    	<div id="logo">
+        	<img src="Images/layout/logo.png" />
+        </div>
+        <div id="banner">
+        	<img src="Images/layout/banner.png" />
+        </div>
+    </div>
+    <!--<div id="hmenu1"> </div> -->
+    <div id="hmenu">
+    	<div id="lmenu"></div>
+        <div id="mmenu">
+        	<ul>
+            	<li><a href="#"><img src="Images/layout/home.png" /> Trang chu</a></li>
+                <li class="mn_divider">
+					&nbsp;
+                </li>
+                <li><a href="#"><img src="Images/layout/services.png" /> Dich vu</a></li>
+                <li class="mn_divider">
+					&nbsp;
+                </li>
+                <li><a href="#"><img src="Images/layout/favs.png" /> Khuyen mai</a></li>
+            </ul>
+        </div>
+        <div id="rmenu"></div>
+        <div style="clear:both"></div>
+    </div>
+    <!--left + content + right -->
+    <div id="mid">
+    	<div id="left">
+        	<div class="vmenu">
+            	<ul>
+                	<li>Loai san pham</li>
+                    <li> <a href="#"><img src="Images/layout/checked.png" /> Dien thoai</a></li>
+                    <li><a href="#"> <img src="Images/layout/checked.png" /> May tinh bang</a></li>
+                    <li> <img src="Images/layout/checked.png" /> Laptop</li>
+                    <li> <img src="Images/layout/checked.png" /> Loa bang</li>
+                </ul>
+            
+            </div>
+        	<div class="vmenu">
+            	<ul>
+                	<li>San pham khuyen mai</li>
+                </ul>
+                <marquee direction="up">
+            	<div class="spkm">
+                	<img src="Images/pro_img/amplies/BOSTON AUDIO PA-14001.png" />
+                    <div class="giamoi">6.000.000</div>
+                    <div class="giacu">7.000.000</div>
+                </div>
+                </marquee>
+            </div>
+        </div>
+        
+        
+        
+        <div id="content">
+        	<div class="bar_title">San pham moi</div>
+        	<div class="product">
+            	<div class="pro_name">Iphone</div>
+                <img src="Images/pro_img/phones/S6Edge1.png" />
+                <div class="price">1000</div>
+                <div class="buy">Mua</div>
+            </div>
+            <div class="product">
+            	<div class="pro_name">Iphone</div>
+                <img src="Images/pro_img/phones/S6Edge1.png" />
+                <div class="price">1000</div>
+                <div class="buy">Mua</div>
+            </div>
+             <div class="product">
+            	<div class="pro_name">Iphone</div>
+                <img src="Images/pro_img/phones/S6Edge1.png" />
+                <div class="price">1000</div>
+                <div class="buy">Mua</div>
+            </div>
+        </div>
+        <div id="right">
+        <div class="vmenu">
+            	<ul>
+                	<li>Hang san xuat</li>
+                    <li> <a href="#"><img src="Images/layout/checked.png" />Apple</a></li>
+                    <li><a href="#"> <img src="Images/layout/checked.png" /> Nokia</a></li>
+                    <li> <img src="Images/layout/checked.png" /> Laptop</li>
+                    <li> <img src="Images/layout/checked.png" /> Loa bang</li>
+                </ul>
+            
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
